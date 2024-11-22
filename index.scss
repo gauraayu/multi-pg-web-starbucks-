@@ -1,0 +1,68 @@
+*{margin: 0;
+padding: 0;
+scroll-behavior: smooth;
+box-sizing: border-box;}
+
+
+  
+
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    // background-size: 100%;
+    
+    background-color: rgb(110, 117, 110);
+    align-items: center;
+    .logo{
+        margin-left: 9%;
+    }
+    img{
+       
+    }
+    nav{
+        margin-right: 42%;
+    }
+    ul{
+        display: flex;
+        justify-content: space-between;
+         margin-right:15% ;
+      
+        li{
+            list-style: none;
+            justify-content: space-between;
+            padding: 30px 30px 30px 30px;
+            text-decoration: none;
+            // margin-right:10% ; 
+          
+          
+            a{
+              text-decoration: none;
+              color: black;
+            //   padding: 100px;
+            }
+        }
+    }
+    div{
+        display: flex;
+    }
+    .icon{
+       align-items: center;
+    
+      margin-right: 10%;
+    
+    i{
+       
+        margin-right: 10%;
+        font-size: 35px;
+    }
+  
+}
+}
+.hero{
+    display: flex;
+    .starbucks{
+        display: flex;
+    }
+}
