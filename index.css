@@ -8,21 +8,23 @@
 .navbar {
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  height: 90px;
-  background-color: rgb(110, 117, 110);
+  height: 100%;
+  border-bottom: gray solid;
+  background-color: rgb(255, 255, 255);
   align-items: center;
 }
 .navbar .logo {
+  flex-wrap: wrap;
   margin-left: 9%;
 }
 .navbar nav {
-  margin-right: 42%;
+  padding-right: 40%;
 }
 .navbar ul {
   display: flex;
   justify-content: space-between;
-  margin-right: 15%;
 }
 .navbar ul li {
   list-style: none;
@@ -32,23 +34,94 @@
 }
 .navbar ul li a {
   text-decoration: none;
-  color: black;
+  font-size: 16px;
+  color: rgb(43, 42, 42);
+}
+.navbar ul li a:hover {
+  border-bottom: rgb(38, 82, 38) solid 1.5px;
+  color: rgb(63, 122, 63);
 }
 .navbar div {
   display: flex;
 }
 .navbar .icon {
   align-items: center;
-  margin-right: 10%;
+  margin-right: 8%;
 }
 .navbar .icon i {
   margin-right: 10%;
+  color: rgb(43, 42, 42);
   font-size: 35px;
 }
-
-.hero {
-  display: flex;
+.navbar .icon i:hover {
+  color: gray;
 }
-.hero .starbucks {
+
+.hero .starbuck {
+  background-color: rgb(21, 53, 40);
+  justify-content: space-between;
+  align-items: center;
+  background-size: 100%;
+  height: 13vh;
+  width: 100%;
+  padding-right: 61%;
   display: flex;
+  flex-wrap: wrap;
+}
+.hero .starbuck h5 {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-left: 180%;
+  font-size: 24px;
+  color: beige;
+}
+.hero .starbuck .know {
+  margin-right: -130%;
+  border: rgb(255, 255, 255) solid;
+  width: 20vh;
+  border-radius: 20px;
+  height: 7vh;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1.5%;
+  color: beige;
+}
+.hero .starbuck a {
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: beige;
+  padding: 12%;
+}
+.hero .starbuck a:hover {
+  color: white;
+  text-decoration: underline;
+}
+.hero .curation {
+  margin: 6% 12% 7% 10%;
+}
+.hero .curation .heading {
+  margin-bottom: 3.6%;
+}
+.hero .curation .heading p {
+  font-size: 200%;
+}
+.hero .curation .images {
+  display: flex;
+  justify-content: center;
+}
+.hero .curation .images img {
+  height: 90%;
+  width: 70%;
+  border-radius: 50%;
+}
+.hero .curation .images img:hover {
+  border: rgb(39, 90, 62) solid;
+}
+.hero .curation .images h4 {
+  align-items: center;
+  text-align: center;
+  padding-right: 30%;
+  justify-content: center;
 }/*# sourceMappingURL=index.css.map */
