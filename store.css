@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+footer .footer {
+  display: flex;
+  background-color: rgb(14, 56, 44);
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-top: 5%;
+}
+footer .footer ul {
+  list-style: none;
+  font-family: SoDoSans_Light, Helvetica, sans-serif;
+}
+footer .footer ul li {
+  font-size: 16px;
+  padding-bottom: 11%;
+}
+footer .footer ul li strong {
+  font-size: 20px;
+}
+footer .footer ul a {
+  text-decoration: none;
+  color: white;
+  font-weight: 10px;
+  font-size: 16px;
+}
+footer .footer ul a:hover {
+  color: rgba(153, 152, 152, 0.822);
+  border-bottom: lightgray solid 2px;
+}
+footer .footer i {
+  color: white;
+  font-size: 230%;
+  padding: 2%;
+}/*# sourceMappingURL=store.css.map */

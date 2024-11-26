@@ -35,6 +35,7 @@
 .navbar ul li a {
   text-decoration: none;
   font-size: 16px;
+  font-family: SoDoSans_Light, Helvetica, sans-serif;
   color: rgb(43, 42, 42);
 }
 .navbar ul li a:hover {
@@ -74,6 +75,7 @@
   align-items: center;
   margin-left: 180%;
   font-size: 24px;
+  font-family: SoDoSans_Light, Helvetica, sans-serif;
   color: beige;
 }
 .hero .starbuck .know {
@@ -106,6 +108,7 @@
 }
 .hero .curation .heading p {
   font-size: 200%;
+  font-family: SoDoSans_Light, Helvetica, sans-serif;
 }
 .hero .curation .images {
   display: flex;
@@ -124,4 +127,172 @@
   text-align: center;
   padding-right: 30%;
   justify-content: center;
+  font-family: SoDoSans_Light, Helvetica, sans-serif;
+}
+.hero .recommend {
+  background-color: rgb(194, 183, 183);
+}
+.hero .recommend a {
+  text-decoration: none;
+  color: black;
+}
+.hero .recommend a:hover {
+  color: lightgray;
+  border-bottom: gray solid 2px;
+}
+.hero .recommend .heading2 {
+  padding-bottom: 3%;
+  margin-left: 5%;
+  margin-right: 8%;
+  padding-top: 3%;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 200%;
+  font-family: SoDoSans_Light, Helvetica, sans-serif;
+  justify-content: space-between;
+}
+.hero .recommend .heading2 h4 {
+  font-size: 60%;
+  color: rgb(39, 90, 62);
+}
+.hero .container1 {
+  display: flex;
+  box-sizing: border-box;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-bottom: 3%;
+  padding-bottom: 2%;
+  height: 100%;
+  padding-right: 20%;
+}
+.hero .container1 .card {
+  display: flex;
+  border: black solid;
+  background-color: white;
+  width: 600px;
+  padding-right: 10%;
+  margin-right: 10%;
+  border-radius: 7%;
+  height: 200px;
+}
+.hero .container1 .card .detail1 img {
+  height: 150px;
+  width: 200px;
+  padding: 10%;
+  border-radius: 50px;
+}
+.hero .container1 .card .detail1 .detail2 {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20%;
+  padding-right: -200px;
+}
+.hero .container1 .card .detail1 .detail2 .add-item {
+  margin-left: 0%;
+}
+.hero .container1 .card .detail3 {
+  padding-top: 9%;
+  color: black;
+}
+.hero .container1 .card .detail3 h5 {
+  font-family: SoDoSans_Light, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+.hero .container1 .card .detail3 p {
+  font-family: Pike_Regular, Helvetica, sans-serif;
+  font-size: 14px;
+  color: rgb(80, 75, 75);
+}
+.hero .container1 .card .detail3 .add-item {
+  background-color: rgb(0, 117, 74);
+  font-family: SoDoSans_Light, Helvetica, sans-serif;
+  border: rgb(0, 117, 74) solid 1px;
+  border-radius: 10%;
+  height: 35px;
+  width: 80px;
+}
+.hero .learn-more {
+  background-color: rgb(194, 183, 183);
+}
+.hero .learn-more .heading {
+  font-family: SoDoSans_Light, Helvetica, sans-serif;
+  font-size: 170%;
+  margin-left: 6%;
+  margin-right: 6%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3%;
+}
+.hero .learn-more .heading a {
+  text-decoration: none;
+  color: rgb(39, 90, 62);
+  font-size: 20px;
+}
+.hero .learn-more .content {
+  margin: 5%;
+  margin-top: 3%;
+}
+.hero .learn-more .content img {
+  width: 100%;
+  height: 90vh;
+  position: relative;
+  padding-bottom: 5%;
+}
+.hero .learn-more .content .img-content {
+  position: absolute;
+  top: 200%;
+  margin-left: 6%;
+  font-family: SoDoSans_Light, Helvetica, sans-serif;
+  color: white;
+}
+.hero .learn-more .content .img-content h1 {
+  font-size: 60px;
+}
+.hero .learn-more .content .img-content h4 {
+  font-size: 20px;
+}
+.hero .learn-more .content .img-content button {
+  margin-top: 7%;
+  height: 35px;
+  width: 120px;
+  border-radius: 20%;
+  font-size: 17px;
+  border: white solid;
+}
+
+footer .footer {
+  display: flex;
+  background-color: rgb(14, 56, 44);
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-top: 5%;
+}
+footer .footer ul {
+  list-style: none;
+  font-family: SoDoSans_Light, Helvetica, sans-serif;
+}
+footer .footer ul li {
+  font-size: 16px;
+  padding-bottom: 11%;
+}
+footer .footer ul li strong {
+  font-size: 20px;
+}
+footer .footer ul a {
+  text-decoration: none;
+  color: white;
+  font-weight: 10px;
+  font-size: 16px;
+}
+footer .footer ul a:hover {
+  color: rgba(153, 152, 152, 0.822);
+  border-bottom: lightgray solid 2px;
+}
+footer .footer i {
+  color: white;
+  font-size: 230%;
+  padding: 2%;
 }/*# sourceMappingURL=index.css.map */

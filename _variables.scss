@@ -1,0 +1,16 @@
+$prefontize: 200%;
+$precolor: rgb(39, 90, 62);
+$seccolor: rgb(14, 56, 44);
+$prefontfamily: SoDoSans_Light, Helvetica, sans-serif;
+$secfontfamily:Pike_Regular, Helvetica, sans-serif;
+
+@mixin btn1() {
+  
+  background-color:  rgb(0, 117, 74);
+       
+  font-family: SoDoSans_Light, Helvetica, sans-serif ;
+  border: rgb(0, 117, 74) solid 1px;
+  border-radius: 10%;
+  height: 35px;
+  width: 80px;
+}
