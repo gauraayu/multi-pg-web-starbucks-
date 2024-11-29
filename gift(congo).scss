@@ -107,6 +107,11 @@
                   margin-top:20%;
                  }
           }
+          .card:hover{
+            color: lightblue;
+            transform: scale(1.2);
+            transition: all 0.5s;
+           }
       }
   }
 }

@@ -50,6 +50,7 @@
 }
 .gift-hero .anytime .anytime-container .anytime-card {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin-left: 5%;
   margin-right: 6%;
@@ -62,6 +63,7 @@
   width: 500px;
   padding-top: 1.5%;
   box-shadow: 4px 6px 8px 5px rgb(192, 189, 189);
+  width: 30%;
   margin: 20px;
   height: 180px;
 }
@@ -91,6 +93,11 @@
   height: 35px;
   width: 80px;
   margin-top: 20%;
+}
+.gift-hero .anytime .anytime-container .anytime-card .card:hover {
+  color: lightblue;
+  transform: scale(1.2);
+  transition: all 0.5s;
 }
 .gift-hero .congratulations h1 {
   padding-top: 1%;
@@ -142,6 +149,11 @@
   height: 35px;
   width: 80px;
   margin-top: 10%;
+}
+.gift-hero .congratulations .congrats-container .congo-card .card:hover {
+  color: lightblue;
+  transform: scale(1.2);
+  transition: all 0.5s;
 }
 
 footer .footer {

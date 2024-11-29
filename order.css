@@ -5,6 +5,93 @@
   box-sizing: border-box;
 }
 
+.order-hero .h1 {
+  margin-left: 8.5%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  font-family: SoDoSans_Light, Helvetica, sans-serif;
+}
+.order-hero .h1 p {
+  font-weight: 10px;
+}
+.order-hero .h2 {
+  background-color: rgb(14, 56, 44);
+  color: rgb(14, 56, 44);
+  height: 42px;
+}
+.order-hero .h3 ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  padding-right: 30%;
+  padding-top: 1.2%;
+  background-color: lightgray;
+  padding-bottom: 1.3%;
+}
+.order-hero .h3 ul a {
+  text-decoration: none;
+  color: black;
+}
+.order-hero .h3 ul a li {
+  font-family: SoDoSans_Light, Helvetica, sans-serif;
+  font-size: 15px;
+  color: rgb(87, 84, 84);
+}
+.order-hero .h3 ul a:hover {
+  color: rgb(39, 90, 62);
+  border-bottom: rgb(39, 90, 62) solid;
+}
+
+.bestseller .h1 {
+  font-size: 200%;
+  font-family: SoDoSans_Light, Helvetica, sans-serif;
+}
+.bestseller .bestseller-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.bestseller .bestseller-card .card {
+  display: flex;
+  background-color: rgb(249, 249, 249);
+  border: rgb(168, 165, 165) solid 2px;
+  border-radius: 20px;
+  width: 380px;
+  height: 200px;
+  padding-top: 1.5%;
+  box-shadow: 4px 6px 8px 5px rgb(192, 189, 189);
+  margin: 20px;
+}
+.bestseller .bestseller-card .card a {
+  text-decoration: none;
+  color: black;
+}
+.bestseller .bestseller-card .card a:hover {
+  color: lightgray;
+  border-bottom: gray solid 2px;
+}
+.bestseller .bestseller-card .card .img {
+  margin-right: 7%;
+  margin-left: 2%;
+}
+.bestseller .bestseller-card .card img {
+  border-radius: 50%;
+  width: 110px;
+}
+.bestseller .bestseller-card .card .d2 {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10%;
+}
+.bestseller .add-item {
+  background-color: rgb(0, 117, 74);
+  font-family: SoDoSans_Light, Helvetica, sans-serif;
+  border: rgb(0, 117, 74) solid 1px;
+  border-radius: 10%;
+  height: 35px;
+  width: 80px;
+}
+
 footer .footer {
   display: flex;
   background-color: rgb(14, 56, 44);

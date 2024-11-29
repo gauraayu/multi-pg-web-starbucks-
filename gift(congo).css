@@ -98,6 +98,11 @@
   width: 80px;
   margin-top: 20%;
 }
+.congo-hero .congo-container .congo-card .card:hover {
+  color: lightblue;
+  transform: scale(1.2);
+  transition: all 0.5s;
+}
 
 footer .footer {
   display: flex;
